@@ -1,4 +1,15 @@
-# v2.2.11 - TBD
+# v2.2.12 - TBD
+
+# v2.2.11 - 2021-10-11
+
+## Fixed
+
+- [#4101](https://github.com/hyperf/hyperf/pull/4101) Fixed bug that auth failed when password has special charsets for nacos.
+
+# Optimized
+
+- [#4114](https://github.com/hyperf/hyperf/pull/4114) Optimized get error code after Websocket upgrade failed.
+- [#4119](https://github.com/hyperf/hyperf/pull/4119) Optimized testing client which create the directory again when the directory does not exist.
 
 ## Fixed
 
